@@ -1,4 +1,4 @@
-Project Title (Portfolio)
+Project Title (Triangle-tracker)
 Simple overview of the IP (A static site describing my work as a developer)
 
 Authors
