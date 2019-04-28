@@ -1,14 +1,18 @@
 body{
     background-image: url("");
-    background-positon: center;
+    background-position: center;
     background-repeat: No-repeat;
     background-size: cover;
 }
 .button>input{
     background-color:aqua;
-    font color: black;
+    color: black;
     width: 150px
 }
 .dimension>input{
     width: 400px;
+}
+img{
+    height:250px;
+    width:300px;
 }

@@ -2,7 +2,7 @@ function result(){
     var firstDimension =parseInt(document.getElementById ('number1') .value)
     var secondDimension = parseInt (document.getElementById ('number2') .value)
     var thirdDimension = parseInt(document.getElementById ('number3').value)
-
+    var someArray=(firstDimension,secondDimension,thirdDimension)
      if(firstDimension<=0||secondDimension<=0||thirdDimension<=0){
         document.getElementById("output").innerHTML="invalid values";
      }
