@@ -19,10 +19,11 @@ function myFunction:(){
         answer ="Not a triangle";
     }
 function reset(){
-    var firstDimension =parseInt(document.getElementById ())
-    var secondDimension = parseInt (document.getElementById)
-    var thirdDimension = parseInt(document.getElementById)
+    var firstDimension =parseInt(document.getElementById(number))
+    var secondDimension = parseInt(document.getElementById(number))
+    var thirdDimension = parseInt(document.getElementById(number))
     var answer = document.getElementById ('rose');
+}
 }
 }
 
