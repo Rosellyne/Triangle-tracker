@@ -8,7 +8,7 @@ This is a learning webpage that allows users to enter three dimensions of a tria
 - internet connection
 - VS code/atom
 - google chrome browser
-###languages used(technologies used)
+###Technologies used
 + HTML
 + CSS
 + Javascript
