@@ -1,10 +1,9 @@
-Project Title (Triangle-tracker)
+3
+# (Triangle-tracker)
 Simple overview of the IP (A static site describing my work as a developer)
 
-Authors
-Rose
-Victor
-Jane
+##Author
+Roselyne Moraa
 Project Description
 Paragraph describing the IP
 
@@ -12,12 +11,13 @@ Installations
 Requirements
 VS code/atom
 Chrome browser
-Technologies
-(HTML)
-(CSS)
-(Javascript)
-(Bootstrap)
-BDD
+###languages used(technologies used)
++HTML
++CSS
++Javascript
++Bootstrap
++ Markdown syntax 
+##BDD
 Categorised my portfolio four main parts, that is, Home, About, Projects, Contacts
 Created the layout for all my categories.
 Finalised my design in a flow chart on how the whole site is supposed to appear.
