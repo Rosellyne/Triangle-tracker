@@ -1,30 +1,23 @@
-function myFunction:(){
-    var firstDimension =parseInt(document.getElementById (number))
-    var secondDimension = parseInt (document.getElementById (number))
-    var thirdDimension = parseInt(document.getElementById (number))
-    var answer = document.getElementById ('rose')
+function result(){
+    var firstDimension =parseInt(document.getElementById ('number1') .value)
+    var secondDimension = parseInt (document.getElementById ('number2') .value)
+    var thirdDimension = parseInt(document.getElementById ('number3').value)
 
-    if(firstDimension+secondDimension>thirdDimension&&secondDimension+thirdDimension>firstDimension&&firstDimension+thirdDimension>secondDimension){
-        if(firstDimension===secondDimension&& secondDimension===thirdDimension&& firstDimension===thirdDimension){
-         document.getElementById("rose").innerHTML="Equilateral:All sides are equal";
+     if(firstDimension<=0||secondDimension<=0||thirdDimension<=0){
+        document.getElementById("output").innerHTML="invalid values";
+     }
+        else if(firstDimension+secondDimension<=thirdDimension || secondDimension+thirdDimension<=firstDimension || firstDimension+thirdDimension<=secondDimension){
+        document.getElementById("output").innerHTML="Not a triangle";
+    }   
+        else if(firstDimension===secondDimension&& secondDimension===thirdDimension){
+                document.getElementById("output").innerHTML="Equilateral:All sides are equal";
          }
         else if(firstDimension===secondDimension||secondDimension===thirdDimension||firstDimension===thirdDimension){
-            document.getElementById("rose").innerHTML="Isosceles:Two sides are equal!";
+            document.getElementById("output").innerHTML="Isosceles:Two sides are equal!";
         }
-        else if(firstDimension!==secondDimension||secondDimension!==thirdDimension||firstDimension!==thirdDimension){
-            document.getElementById("rose").innerHTML="Scalene:No sides are equal";
+        else {
+            document.getElementById("output").innerHTML="Scalene:No sides are equal";
         }
-    }
-    else{
-        answer ="Not a triangle";
-    }
-function reset(){
-    var firstDimension =parseInt(document.getElementById(number))
-    var secondDimension = parseInt(document.getElementById(number))
-    var thirdDimension = parseInt(document.getElementById(number))
-    var answer = document.getElementById ('rose');
-}
-}
-}
+ 
 
-    
+}

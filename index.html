@@ -3,18 +3,18 @@
     <head>
      <meta charset="utf-8">
      <link rel="stylesheet" type ="text/css" href="styles.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <title>Triangle-tracker</title>
-     <link rel="stylesheet" href="styles.css">
      </head>
      <body>
-        <div class ="form"action="processform.php" method="post">
-            <input type="number" name="First number" placeholder="First dimension" id ="number">
-             <input type="number" name="Second number" placeholder="Second dimension" id ="number">
-             <input type="number" name="Third number" placeholder="Third dimension" id="number">
-              <button type="button" onclick="myFunction()" >SUBMIT</button>
-              <input type="reset">
-         </div>
-         <p id="rose"></p>
+        <div class ="form" method="post">
+            <input type="number" name="First number" placeholder="First dimension" id ="number1" >
+             <input type="number" name="Second number" placeholder="Second dimension" id ="number2">
+             <input type="number" name="Third number" placeholder="Third dimension" id="number3">
+              <input class="buttonS" type="submit" onclick="result()" >
+              <input type="Reset" onclick="document.getElementById('number1').value = ''; document.getElementById('number2').value = ''; document.getElementById('number3').value = ''; document.getElementById('output').style.display='none' ">
+         </div> 
+         <p id="output"></p>
          <script src="js/scripts.js"></script> 
     </body>
 </html>

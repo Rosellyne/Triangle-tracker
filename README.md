@@ -1,14 +1,13 @@
-3
 # (Triangle-tracker)
 Simple overview of the IP (A static site describing my work as a developer)
-
 ##Author
 Roselyne Moraa
-Project Description
-Paragraph describing the IP
+##Project Description
 
-Installations
-Requirements
+
+##Installations
+###Requirements
+internet connection
 VS code/atom
 Chrome browser
 ###languages used(technologies used)
