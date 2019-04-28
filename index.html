@@ -2,18 +2,25 @@
 <html>
     <head>
      <meta charset="utf-8">
-     <link rel="stylesheet" type ="text/css" href="styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" type ="text/css" href="styles.css">
      <title>Triangle-tracker</title>
      </head>
      <body>
-        <div class ="form" method="post">
-            <input type="number" name="First number" placeholder="First dimension" id ="number1" >
+         <hi>TRIANGLE-TRACKER</hi>
+         <p> This is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.By entering the various three- dimensions</p>
+        <div class ="form">
+            <div class="dimension">
+              <input type="number" name="First number" placeholder="First dimension" id ="number1" >
              <input type="number" name="Second number" placeholder="Second dimension" id ="number2">
              <input type="number" name="Third number" placeholder="Third dimension" id="number3">
-              <input class="buttonS" type="submit" onclick="result()" >
+            </div>
+              <div class="button">
+              <input class="SUBMIT" type="submit" onclick="result()" >
               <input type="Reset" onclick="document.getElementById('number1').value = ''; document.getElementById('number2').value = ''; document.getElementById('number3').value = ''; document.getElementById('output').style.display='none' ">
-         </div> 
+            </div>
+        </div> 
          <p id="output"></p>
          <script src="js/scripts.js"></script> 
     </body>
