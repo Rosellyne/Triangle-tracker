@@ -19,7 +19,7 @@ body{
 .dimension>input{
     width: 400px;
     background-color:black;
-    font-color: white;
+    color: white;
 }
 img{
     height:500px;

@@ -10,13 +10,13 @@ This is a learning webpage that allows users to enter three dimensions of a tria
 
 ## Installations
 
-### Requirements
+## Requirements
 
 - internet connection
 - VS code/atom
 - google chrome browser
 
-### Technologies used
+## Technologies used
 
 + HTML
 + CSS
