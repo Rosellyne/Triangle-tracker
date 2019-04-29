@@ -14,7 +14,7 @@ This is a learning webpage that allows users to enter three dimensions of a tria
 + Javascript
 + Bootstrap
 + Markdown syntax 
-## Program Behaviour(BDD)
+##  Program Behaviour(BDD)
 The program should output this when the user inputs  a negative dimension or a zero dimension:
 user input: first dimension = -1, second dimension = 0, third dimension = 0
 
