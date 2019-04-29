@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+*{
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3vh
+}
 body{
     background-color:green;
     background-position: center;
@@ -22,3 +29,18 @@ h1{
     font-weight: bold;
     text-decoration: underline;
 }
+.heading{
+    text-align: center;
+}
+.icons{
+    font-size: 4vh;
+    margin-top: 20%;
+    text-align: center;
+    margin:10px;
+  }
+  footer{
+      text-align: center;
+      text-decoration: italic;
+      font-size:4vh;
+  }
+  
