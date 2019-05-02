@@ -21,10 +21,10 @@ body{
     background-color:black;
     color: white;
 }
-img{
+/* img{
     height:500px;
     width:750px;
-}
+} */
 
 h1{
     text-align: center;
@@ -44,4 +44,12 @@ h1{
       text-align: center;
       text-decoration: italic;
       font-size:4vh;
+  }
+ 
+
+  .card{
+      margin-top: 20px;
+  }
+  .form{
+      margin-top: 25px;
   }

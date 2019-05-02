@@ -8,25 +8,33 @@
      <title>Triangle-tracker</title>
      </head>
      <body>
+       <center>
+       <div class="contaiener">
+       <div class="card-deck">
+       <div class="card">
          <h1>TRIANGLE-TRACKER</h1>
          <div class= "heading">
          <p> This is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.By entering the different three- dimensionsof the triangle and pops up the type of the triangle</p>
          </div>
-         <img src="https://i2.wp.com/www.embhack.com/wp-content/uploads/2018/07/triangle.png?fit=273%2C254" alt="">
-         
+         <img src="https://i2.wp.com/www.embhack.com/wp-content/uploads/2018/07/triangle.png?fit=273%2C254" alt="img" class="fluid-flow">
+        </div>
+        </div>
+        </div>
+      </center>
+         <center>
         <div class ="form">
             <div class="dimension">
-              <input type="number" name="First number" placeholder="First dimension" id ="number1" >
-             <input type="number" name="Second number" placeholder="Second dimension" id ="number2">
-             <input type="number" name="Third number" placeholder="Third dimension"id="number3">
+              <input type="number" name="First number" placeholder="First dimension" id ="number1" ><br>
+             <input type="number" name="Second number" placeholder="Second dimension" id ="number2"><br>
+             <input type="number" name="Third number" placeholder="Third dimension"id="number3"><br>
             </div>
               <div class="button">
-              <input class="SUBMIT" type="submit" onclick="result()" >
-              <input type="Reset" onclick="document.getElementById('number1').value = ''; document.getElementById('number2').value = ''; document.getElementById('number3').value = ''; document.getElementById('output').style.display='none' ">
-            </div>
+                <input class="SUBMIT" type="submit" onclick="result()" >
+             </div>
           </div>
          <p id="output"></p>
+        </center>
+         <footer> @Roselyne</footer>
          <script src="js/scripts.js"></script> 
-            </body>
-           <footer> @Roselyne</footer>
+    </body>
 </html>
